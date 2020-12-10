@@ -6,7 +6,7 @@ import com.atmecs.api_testing.constants.Constants;
 
 public class DataProviderClass 
 {
-	@DataProvider(name = "filling_details")
+	@DataProvider(name = "createUser")
 	public Object[][] readData()
 	{
 		JsonFileReader jsonReader = new JsonFileReader(Constants.JSON_DATA_FILE);

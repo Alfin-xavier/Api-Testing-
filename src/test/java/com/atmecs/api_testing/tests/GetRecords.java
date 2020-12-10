@@ -6,6 +6,7 @@ import java.net.URL;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
+import com.atmecs.api_testing.page.BasePage;
 import com.atmecs.api_testing.utilities.Logging;
 
 import io.restassured.RestAssured;
@@ -13,7 +14,7 @@ import io.restassured.http.ContentType;
 import io.restassured.response.Response;
 import io.restassured.specification.RequestSpecification;
 
-public class GetRecords 
+public class GetRecords extends BasePage
 {
 	@Test
 	public void getApiAuth() throws MalformedURLException

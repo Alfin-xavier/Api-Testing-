@@ -83,3 +83,448 @@
 [main] INFO  com.atmecs.api_testing.utilities.Logging  - Verifying the status code !!
 [main] INFO  com.atmecs.api_testing.utilities.Logging  - Status Code:200
 [main] INFO  com.atmecs.api_testing.utilities.Logging  - Verified status code !!
+[main] INFO  com.atmecs.api_testing.utilities.Logging  - Building the request !!
+
+[main] INFO  com.atmecs.api_testing.utilities.Logging  - Providing access to retrieve the records ang getting response !!
+
+[main] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager  - Get connection for route {s}->https://sample-3a82.restdb.io:443
+[main] DEBUG org.apache.http.impl.conn.DefaultClientConnectionOperator  - Connecting to sample-3a82.restdb.io:443
+[main] DEBUG org.apache.http.client.protocol.RequestAddCookies  - CookieSpec selected: ignoreCookies
+[main] DEBUG org.apache.http.client.protocol.RequestAuthCache  - Auth cache not set in the context
+[main] DEBUG org.apache.http.client.protocol.RequestProxyAuthentication  - Proxy auth state: UNCHALLENGED
+[main] DEBUG org.apache.http.impl.client.DefaultHttpClient  - Attempt 1 to execute request
+[main] DEBUG org.apache.http.impl.conn.DefaultClientConnection  - Sending request: GET /rest/api-testing HTTP/1.1
+[main] DEBUG org.apache.http.wire  -  >> "GET /rest/api-testing HTTP/1.1[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  >> "Content-Type: application/json; charset=UTF-8[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  >> "Authorization: Bearer b35c5b2a12e7cb38d9913ecdd8734006969f2[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  >> "Accept: */*[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  >> "x-apikey: b35c5b2a12e7cb38d9913ecdd8734006969f2[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  >> "Host: sample-3a82.restdb.io[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  >> "Connection: Keep-Alive[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  >> "User-Agent: Apache-HttpClient/4.5.3 (Java/14.0.1)[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  >> "[\r][\n]"
+[main] DEBUG org.apache.http.headers  - >> GET /rest/api-testing HTTP/1.1
+[main] DEBUG org.apache.http.headers  - >> Content-Type: application/json; charset=UTF-8
+[main] DEBUG org.apache.http.headers  - >> Authorization: Bearer b35c5b2a12e7cb38d9913ecdd8734006969f2
+[main] DEBUG org.apache.http.headers  - >> Accept: */*
+[main] DEBUG org.apache.http.headers  - >> x-apikey: b35c5b2a12e7cb38d9913ecdd8734006969f2
+[main] DEBUG org.apache.http.headers  - >> Host: sample-3a82.restdb.io
+[main] DEBUG org.apache.http.headers  - >> Connection: Keep-Alive
+[main] DEBUG org.apache.http.headers  - >> User-Agent: Apache-HttpClient/4.5.3 (Java/14.0.1)
+[main] DEBUG org.apache.http.headers  - >> Accept-Encoding: gzip,deflate
+[main] DEBUG org.apache.http.wire  -  << "HTTP/1.1 200 OK[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "x-xss-protection: 1; mode=block[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "x-download-options: noopen[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "x-frame-options: SAMEORIGIN[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "x-content-type-options: nosniff[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "x-dns-prefetch-control: off[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "surrogate-control: no-store[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "cache-control: no-store, no-cache, must-revalidate, proxy-revalidate[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "pragma: no-cache[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "expires: 0[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "content-type: application/json; charset=utf-8[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "vary: Accept-Encoding[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "content-encoding: gzip[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "date: Thu, 10 Dec 2020 11:11:48 GMT[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "connection: close[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "transfer-encoding: chunked[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "[\r][\n]"
+[main] DEBUG org.apache.http.impl.conn.DefaultClientConnection  - Receiving response: HTTP/1.1 200 OK
+[main] DEBUG org.apache.http.headers  - << HTTP/1.1 200 OK
+[main] DEBUG org.apache.http.headers  - << x-xss-protection: 1; mode=block
+[main] DEBUG org.apache.http.headers  - << x-download-options: noopen
+[main] DEBUG org.apache.http.headers  - << x-frame-options: SAMEORIGIN
+[main] DEBUG org.apache.http.headers  - << x-content-type-options: nosniff
+[main] DEBUG org.apache.http.headers  - << x-dns-prefetch-control: off
+[main] DEBUG org.apache.http.headers  - << surrogate-control: no-store
+[main] DEBUG org.apache.http.headers  - << cache-control: no-store, no-cache, must-revalidate, proxy-revalidate
+[main] DEBUG org.apache.http.headers  - << pragma: no-cache
+[main] DEBUG org.apache.http.headers  - << expires: 0
+[main] DEBUG org.apache.http.headers  - << content-type: application/json; charset=utf-8
+[main] DEBUG org.apache.http.headers  - << vary: Accept-Encoding
+[main] DEBUG org.apache.http.headers  - << content-encoding: gzip
+[main] DEBUG org.apache.http.headers  - << date: Thu, 10 Dec 2020 11:11:48 GMT
+[main] DEBUG org.apache.http.headers  - << connection: close
+[main] DEBUG org.apache.http.headers  - << transfer-encoding: chunked
+[main] DEBUG io.restassured.internal.RequestSpecificationImpl$RestAssuredHttpBuilder  - Parsing response as: application/json; charset=utf-8
+[main] DEBUG org.apache.http.wire  -  << "a[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "[0x1f][0x8b][0x8][0x0][0x0][0x0][0x0][0x0][0x0][0x3]"
+[main] DEBUG org.apache.http.wire  -  << "[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "4e[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "[0x8b][0xe6]R[0xa8]V[0x8a][0xcf]LQ[0xb2]R2MK1H27OKINMJ6035[0x0][0x82][0x14][0xf3]$S%[0x1d][0xa5][0xb4][0xcc][0xa2][0xe2][0x92][0xbc][0xc4][0xdc]T[0xa0]2[0xc7][0xa2][0xfc][0xe4]l[0xa0]XN"\([0xa0](1)#Q[0xa9][0x96]+[0x16][0x0];[0x5][0x88][0x19]O[0x0][0x0][0x0]"
+[main] DEBUG org.apache.http.wire  -  << "[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "0[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "[\r][\n]"
+[main] DEBUG io.restassured.internal.RequestSpecificationImpl$RestAssuredHttpBuilder  - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+[main] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager  - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@6cfd9a54
+[main] DEBUG org.apache.http.impl.conn.DefaultClientConnection  - Connection 0.0.0.0:65234<->188.166.28.84:443 shut down
+[main] INFO  com.atmecs.api_testing.utilities.Logging  - Getting response body
+
+[main] INFO  com.atmecs.api_testing.utilities.Logging  - Response body: [
+ {"_id":"5fd0b77fdcebc0650000d7b5","firstname":"Arock","lastname":"Prabha"}
+]
+[main] INFO  com.atmecs.api_testing.utilities.Logging  - Getting status code
+[main] INFO  com.atmecs.api_testing.utilities.Logging  - Verifying the status code !!
+[main] INFO  com.atmecs.api_testing.utilities.Logging  - Status Code:200
+[main] INFO  com.atmecs.api_testing.utilities.Logging  - Verified status code !!
+[main] INFO  com.atmecs.api_testing.utilities.Logging  - Providing access to delete record from db !!
+
+[main] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager  - Get connection for route {s}->https://sample-3a82.restdb.io:443
+[main] DEBUG org.apache.http.impl.conn.DefaultClientConnectionOperator  - Connecting to sample-3a82.restdb.io:443
+[main] DEBUG org.apache.http.client.protocol.RequestAddCookies  - CookieSpec selected: ignoreCookies
+[main] DEBUG org.apache.http.client.protocol.RequestAuthCache  - Auth cache not set in the context
+[main] DEBUG org.apache.http.client.protocol.RequestProxyAuthentication  - Proxy auth state: UNCHALLENGED
+[main] DEBUG org.apache.http.impl.client.DefaultHttpClient  - Attempt 1 to execute request
+[main] DEBUG org.apache.http.impl.conn.DefaultClientConnection  - Sending request: DELETE /rest/api-testing/5fd0b77fdcebc0650000d7b5 HTTP/1.1
+[main] DEBUG org.apache.http.wire  -  >> "DELETE /rest/api-testing/5fd0b77fdcebc0650000d7b5 HTTP/1.1[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  >> "Content-Type: application/json; charset=UTF-8[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  >> "Authorization: Bearer b35c5b2a12e7cb38d9913ecdd8734006969f2[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  >> "Accept: */*[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  >> "x-apikey: b35c5b2a12e7cb38d9913ecdd8734006969f2[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  >> "Host: sample-3a82.restdb.io[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  >> "Connection: Keep-Alive[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  >> "User-Agent: Apache-HttpClient/4.5.3 (Java/14.0.1)[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  >> "[\r][\n]"
+[main] DEBUG org.apache.http.headers  - >> DELETE /rest/api-testing/5fd0b77fdcebc0650000d7b5 HTTP/1.1
+[main] DEBUG org.apache.http.headers  - >> Content-Type: application/json; charset=UTF-8
+[main] DEBUG org.apache.http.headers  - >> Authorization: Bearer b35c5b2a12e7cb38d9913ecdd8734006969f2
+[main] DEBUG org.apache.http.headers  - >> Accept: */*
+[main] DEBUG org.apache.http.headers  - >> x-apikey: b35c5b2a12e7cb38d9913ecdd8734006969f2
+[main] DEBUG org.apache.http.headers  - >> Host: sample-3a82.restdb.io
+[main] DEBUG org.apache.http.headers  - >> Connection: Keep-Alive
+[main] DEBUG org.apache.http.headers  - >> User-Agent: Apache-HttpClient/4.5.3 (Java/14.0.1)
+[main] DEBUG org.apache.http.headers  - >> Accept-Encoding: gzip,deflate
+[main] DEBUG org.apache.http.wire  -  << "HTTP/1.1 200 OK[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "x-xss-protection: 1; mode=block[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "x-download-options: noopen[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "x-frame-options: SAMEORIGIN[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "x-content-type-options: nosniff[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "x-dns-prefetch-control: off[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "content-type: application/json; charset=utf-8[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "content-length: 39[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "etag: W/"27-vRyMfn4EBmFZSnDI92SvSn71rcg"[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "vary: Accept-Encoding[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "date: Thu, 10 Dec 2020 11:17:38 GMT[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "connection: close[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "[\r][\n]"
+[main] DEBUG org.apache.http.impl.conn.DefaultClientConnection  - Receiving response: HTTP/1.1 200 OK
+[main] DEBUG org.apache.http.headers  - << HTTP/1.1 200 OK
+[main] DEBUG org.apache.http.headers  - << x-xss-protection: 1; mode=block
+[main] DEBUG org.apache.http.headers  - << x-download-options: noopen
+[main] DEBUG org.apache.http.headers  - << x-frame-options: SAMEORIGIN
+[main] DEBUG org.apache.http.headers  - << x-content-type-options: nosniff
+[main] DEBUG org.apache.http.headers  - << x-dns-prefetch-control: off
+[main] DEBUG org.apache.http.headers  - << content-type: application/json; charset=utf-8
+[main] DEBUG org.apache.http.headers  - << content-length: 39
+[main] DEBUG org.apache.http.headers  - << etag: W/"27-vRyMfn4EBmFZSnDI92SvSn71rcg"
+[main] DEBUG org.apache.http.headers  - << vary: Accept-Encoding
+[main] DEBUG org.apache.http.headers  - << date: Thu, 10 Dec 2020 11:17:38 GMT
+[main] DEBUG org.apache.http.headers  - << connection: close
+[main] DEBUG io.restassured.internal.RequestSpecificationImpl$RestAssuredHttpBuilder  - Parsing response as: application/json; charset=utf-8
+[main] DEBUG io.restassured.internal.RequestSpecificationImpl$RestAssuredHttpBuilder  - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+[main] INFO  com.atmecs.api_testing.utilities.Logging  - Getting status code: 200
+[main] INFO  com.atmecs.api_testing.utilities.Logging  - Verifying status code !!
+[main] INFO  com.atmecs.api_testing.utilities.Logging  - Providing access to delete record from db !!
+
+[main] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager  - Get connection for route {s}->https://sample-3a82.restdb.io:443
+[main] DEBUG org.apache.http.impl.conn.DefaultClientConnectionOperator  - Connecting to sample-3a82.restdb.io:443
+[main] DEBUG org.apache.http.client.protocol.RequestAddCookies  - CookieSpec selected: ignoreCookies
+[main] DEBUG org.apache.http.client.protocol.RequestAuthCache  - Auth cache not set in the context
+[main] DEBUG org.apache.http.client.protocol.RequestProxyAuthentication  - Proxy auth state: UNCHALLENGED
+[main] DEBUG org.apache.http.impl.client.DefaultHttpClient  - Attempt 1 to execute request
+[main] DEBUG org.apache.http.impl.conn.DefaultClientConnection  - Sending request: DELETE /rest/api-testing/5fd0b77fdcebc0650000d7b5 HTTP/1.1
+[main] DEBUG org.apache.http.wire  -  >> "DELETE /rest/api-testing/5fd0b77fdcebc0650000d7b5 HTTP/1.1[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  >> "Content-Type: application/json; charset=UTF-8[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  >> "Authorization: Bearer b35c5b2a12e7cb38d9913ecdd8734006969f2[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  >> "Accept: */*[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  >> "x-apikey: b35c5b2a12e7cb38d9913ecdd8734006969f2[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  >> "Host: sample-3a82.restdb.io[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  >> "Connection: Keep-Alive[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  >> "User-Agent: Apache-HttpClient/4.5.3 (Java/14.0.1)[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  >> "[\r][\n]"
+[main] DEBUG org.apache.http.headers  - >> DELETE /rest/api-testing/5fd0b77fdcebc0650000d7b5 HTTP/1.1
+[main] DEBUG org.apache.http.headers  - >> Content-Type: application/json; charset=UTF-8
+[main] DEBUG org.apache.http.headers  - >> Authorization: Bearer b35c5b2a12e7cb38d9913ecdd8734006969f2
+[main] DEBUG org.apache.http.headers  - >> Accept: */*
+[main] DEBUG org.apache.http.headers  - >> x-apikey: b35c5b2a12e7cb38d9913ecdd8734006969f2
+[main] DEBUG org.apache.http.headers  - >> Host: sample-3a82.restdb.io
+[main] DEBUG org.apache.http.headers  - >> Connection: Keep-Alive
+[main] DEBUG org.apache.http.headers  - >> User-Agent: Apache-HttpClient/4.5.3 (Java/14.0.1)
+[main] DEBUG org.apache.http.headers  - >> Accept-Encoding: gzip,deflate
+[main] DEBUG org.apache.http.wire  -  << "HTTP/1.1 404 Not Found[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "x-xss-protection: 1; mode=block[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "x-download-options: noopen[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "x-frame-options: SAMEORIGIN[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "x-content-type-options: nosniff[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "x-dns-prefetch-control: off[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "content-type: application/json; charset=utf-8[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "content-length: 23[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "etag: W/"17-JG2JTE6to/D4sxc2pRx7Kk+opAc"[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "vary: Accept-Encoding[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "date: Thu, 10 Dec 2020 11:18:09 GMT[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "connection: close[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "[\r][\n]"
+[main] DEBUG org.apache.http.impl.conn.DefaultClientConnection  - Receiving response: HTTP/1.1 404 Not Found
+[main] DEBUG org.apache.http.headers  - << HTTP/1.1 404 Not Found
+[main] DEBUG org.apache.http.headers  - << x-xss-protection: 1; mode=block
+[main] DEBUG org.apache.http.headers  - << x-download-options: noopen
+[main] DEBUG org.apache.http.headers  - << x-frame-options: SAMEORIGIN
+[main] DEBUG org.apache.http.headers  - << x-content-type-options: nosniff
+[main] DEBUG org.apache.http.headers  - << x-dns-prefetch-control: off
+[main] DEBUG org.apache.http.headers  - << content-type: application/json; charset=utf-8
+[main] DEBUG org.apache.http.headers  - << content-length: 23
+[main] DEBUG org.apache.http.headers  - << etag: W/"17-JG2JTE6to/D4sxc2pRx7Kk+opAc"
+[main] DEBUG org.apache.http.headers  - << vary: Accept-Encoding
+[main] DEBUG org.apache.http.headers  - << date: Thu, 10 Dec 2020 11:18:09 GMT
+[main] DEBUG org.apache.http.headers  - << connection: close
+[main] DEBUG io.restassured.internal.RequestSpecificationImpl$RestAssuredHttpBuilder  - Parsing response as: application/json; charset=utf-8
+[main] DEBUG io.restassured.internal.RequestSpecificationImpl$RestAssuredHttpBuilder  - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+[main] INFO  com.atmecs.api_testing.utilities.Logging  - Getting status code: 404
+[main] INFO  com.atmecs.api_testing.utilities.Logging  - Verifying status code !!
+[main] INFO  com.atmecs.api_testing.utilities.Logging  - Providing access and inserting records to the db !!
+
+[main] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager  - Get connection for route {s}->https://sample-3a82.restdb.io:443
+[main] DEBUG org.apache.http.impl.conn.DefaultClientConnectionOperator  - Connecting to sample-3a82.restdb.io:443
+[main] DEBUG org.apache.http.client.protocol.RequestAddCookies  - CookieSpec selected: ignoreCookies
+[main] DEBUG org.apache.http.client.protocol.RequestAuthCache  - Auth cache not set in the context
+[main] DEBUG org.apache.http.client.protocol.RequestProxyAuthentication  - Proxy auth state: UNCHALLENGED
+[main] DEBUG org.apache.http.impl.client.DefaultHttpClient  - Attempt 1 to execute request
+[main] DEBUG org.apache.http.impl.conn.DefaultClientConnection  - Sending request: POST /rest/api-testing HTTP/1.1
+[main] DEBUG org.apache.http.wire  -  >> "POST /rest/api-testing HTTP/1.1[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  >> "Authorization: Bearer b35c5b2a12e7cb38d9913ecdd8734006969f2[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  >> "Accept: */*[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  >> "x-apikey: b35c5b2a12e7cb38d9913ecdd8734006969f2[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  >> "Content-Type: application/json; charset=UTF-8[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  >> "Content-Length: 42[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  >> "Host: sample-3a82.restdb.io[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  >> "Connection: Keep-Alive[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  >> "User-Agent: Apache-HttpClient/4.5.3 (Java/14.0.1)[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  >> "[\r][\n]"
+[main] DEBUG org.apache.http.headers  - >> POST /rest/api-testing HTTP/1.1
+[main] DEBUG org.apache.http.headers  - >> Authorization: Bearer b35c5b2a12e7cb38d9913ecdd8734006969f2
+[main] DEBUG org.apache.http.headers  - >> Accept: */*
+[main] DEBUG org.apache.http.headers  - >> x-apikey: b35c5b2a12e7cb38d9913ecdd8734006969f2
+[main] DEBUG org.apache.http.headers  - >> Content-Type: application/json; charset=UTF-8
+[main] DEBUG org.apache.http.headers  - >> Content-Length: 42
+[main] DEBUG org.apache.http.headers  - >> Host: sample-3a82.restdb.io
+[main] DEBUG org.apache.http.headers  - >> Connection: Keep-Alive
+[main] DEBUG org.apache.http.headers  - >> User-Agent: Apache-HttpClient/4.5.3 (Java/14.0.1)
+[main] DEBUG org.apache.http.headers  - >> Accept-Encoding: gzip,deflate
+[main] DEBUG org.apache.http.wire  -  >> "{"firstname":"Kedhar","lastname":"Jadhav"}"
+[main] DEBUG org.apache.http.wire  -  << "HTTP/1.1 201 Created[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "x-xss-protection: 1; mode=block[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "x-download-options: noopen[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "x-frame-options: SAMEORIGIN[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "x-content-type-options: nosniff[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "x-dns-prefetch-control: off[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "vary: X-HTTP-Method-Override, Accept-Encoding[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "content-type: application/json; charset=utf-8[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "content-length: 268[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "etag: W/"10c-D+NfJv7WqY9xfvuz7TrrcKEL0oA"[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "date: Thu, 10 Dec 2020 11:22:48 GMT[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "connection: close[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "[\r][\n]"
+[main] DEBUG org.apache.http.impl.conn.DefaultClientConnection  - Receiving response: HTTP/1.1 201 Created
+[main] DEBUG org.apache.http.headers  - << HTTP/1.1 201 Created
+[main] DEBUG org.apache.http.headers  - << x-xss-protection: 1; mode=block
+[main] DEBUG org.apache.http.headers  - << x-download-options: noopen
+[main] DEBUG org.apache.http.headers  - << x-frame-options: SAMEORIGIN
+[main] DEBUG org.apache.http.headers  - << x-content-type-options: nosniff
+[main] DEBUG org.apache.http.headers  - << x-dns-prefetch-control: off
+[main] DEBUG org.apache.http.headers  - << vary: X-HTTP-Method-Override, Accept-Encoding
+[main] DEBUG org.apache.http.headers  - << content-type: application/json; charset=utf-8
+[main] DEBUG org.apache.http.headers  - << content-length: 268
+[main] DEBUG org.apache.http.headers  - << etag: W/"10c-D+NfJv7WqY9xfvuz7TrrcKEL0oA"
+[main] DEBUG org.apache.http.headers  - << date: Thu, 10 Dec 2020 11:22:48 GMT
+[main] DEBUG org.apache.http.headers  - << connection: close
+[main] DEBUG io.restassured.internal.RequestSpecificationImpl$RestAssuredHttpBuilder  - Parsing response as: application/json; charset=utf-8
+[main] DEBUG io.restassured.internal.RequestSpecificationImpl$RestAssuredHttpBuilder  - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+[main] DEBUG org.apache.http.wire  -  << "{"_id":"5fd20508dcebc06500017378","firstname":"Kedhar","lastname":"Jadhav","_created":"2020-12-10T11:22:48.144Z","_changed":"2020-12-10T11:22:48.144Z","_createdby":"api","_changedby":"api","_keywords":["api","kedhar","jadhav"],"_tags":"api kedhar jadhav","_version":0}"
+[main] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager  - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@51841ac6
+[main] DEBUG org.apache.http.impl.conn.DefaultClientConnection  - Connection 0.0.0.0:49306<->188.166.28.84:443 shut down
+[main] INFO  com.atmecs.api_testing.utilities.Logging  - Getting status code: 201
+[main] INFO  com.atmecs.api_testing.utilities.Logging  - Verifying status code !!
+[main] INFO  com.atmecs.api_testing.utilities.Logging  - Verified status code !!
+
+[main] INFO  com.atmecs.api_testing.utilities.Logging  - Getting response body: {"_id":"5fd20508dcebc06500017378","firstname":"Kedhar","lastname":"Jadhav","_created":"2020-12-10T11:22:48.144Z","_changed":"2020-12-10T11:22:48.144Z","_createdby":"api","_changedby":"api","_keywords":["api","kedhar","jadhav"],"_tags":"api kedhar jadhav","_version":0}
+
+[main] INFO  com.atmecs.api_testing.utilities.Logging  - Getting record id:5fd20508dcebc06500017378
+
+[main] INFO  com.atmecs.api_testing.utilities.Logging  - Getting created time: 2020-12-10T11:22:48.144Z
+
+[main] INFO  com.atmecs.api_testing.utilities.Logging  - Building the request !!
+
+[main] INFO  com.atmecs.api_testing.utilities.Logging  - Providing access to retrieve the records ang getting response !!
+
+[main] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager  - Get connection for route {s}->https://sample-3a82.restdb.io:443
+[main] DEBUG org.apache.http.impl.conn.DefaultClientConnectionOperator  - Connecting to sample-3a82.restdb.io:443
+[main] DEBUG org.apache.http.client.protocol.RequestAddCookies  - CookieSpec selected: ignoreCookies
+[main] DEBUG org.apache.http.client.protocol.RequestAuthCache  - Auth cache not set in the context
+[main] DEBUG org.apache.http.client.protocol.RequestProxyAuthentication  - Proxy auth state: UNCHALLENGED
+[main] DEBUG org.apache.http.impl.client.DefaultHttpClient  - Attempt 1 to execute request
+[main] DEBUG org.apache.http.impl.conn.DefaultClientConnection  - Sending request: GET /rest/api-testing HTTP/1.1
+[main] DEBUG org.apache.http.wire  -  >> "GET /rest/api-testing HTTP/1.1[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  >> "Content-Type: application/json; charset=UTF-8[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  >> "Authorization: Bearer b35c5b2a12e7cb38d9913ecdd8734006969f2[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  >> "Accept: */*[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  >> "x-apikey: b35c5b2a12e7cb38d9913ecdd8734006969f2[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  >> "Host: sample-3a82.restdb.io[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  >> "Connection: Keep-Alive[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  >> "User-Agent: Apache-HttpClient/4.5.3 (Java/14.0.1)[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  >> "[\r][\n]"
+[main] DEBUG org.apache.http.headers  - >> GET /rest/api-testing HTTP/1.1
+[main] DEBUG org.apache.http.headers  - >> Content-Type: application/json; charset=UTF-8
+[main] DEBUG org.apache.http.headers  - >> Authorization: Bearer b35c5b2a12e7cb38d9913ecdd8734006969f2
+[main] DEBUG org.apache.http.headers  - >> Accept: */*
+[main] DEBUG org.apache.http.headers  - >> x-apikey: b35c5b2a12e7cb38d9913ecdd8734006969f2
+[main] DEBUG org.apache.http.headers  - >> Host: sample-3a82.restdb.io
+[main] DEBUG org.apache.http.headers  - >> Connection: Keep-Alive
+[main] DEBUG org.apache.http.headers  - >> User-Agent: Apache-HttpClient/4.5.3 (Java/14.0.1)
+[main] DEBUG org.apache.http.headers  - >> Accept-Encoding: gzip,deflate
+[main] DEBUG org.apache.http.wire  -  << "HTTP/1.1 200 OK[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "x-xss-protection: 1; mode=block[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "x-download-options: noopen[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "x-frame-options: SAMEORIGIN[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "x-content-type-options: nosniff[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "x-dns-prefetch-control: off[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "surrogate-control: no-store[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "cache-control: no-store, no-cache, must-revalidate, proxy-revalidate[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "pragma: no-cache[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "expires: 0[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "content-type: application/json; charset=utf-8[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "vary: Accept-Encoding[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "content-encoding: gzip[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "date: Thu, 10 Dec 2020 11:39:57 GMT[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "connection: close[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "transfer-encoding: chunked[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "[\r][\n]"
+[main] DEBUG org.apache.http.impl.conn.DefaultClientConnection  - Receiving response: HTTP/1.1 200 OK
+[main] DEBUG org.apache.http.headers  - << HTTP/1.1 200 OK
+[main] DEBUG org.apache.http.headers  - << x-xss-protection: 1; mode=block
+[main] DEBUG org.apache.http.headers  - << x-download-options: noopen
+[main] DEBUG org.apache.http.headers  - << x-frame-options: SAMEORIGIN
+[main] DEBUG org.apache.http.headers  - << x-content-type-options: nosniff
+[main] DEBUG org.apache.http.headers  - << x-dns-prefetch-control: off
+[main] DEBUG org.apache.http.headers  - << surrogate-control: no-store
+[main] DEBUG org.apache.http.headers  - << cache-control: no-store, no-cache, must-revalidate, proxy-revalidate
+[main] DEBUG org.apache.http.headers  - << pragma: no-cache
+[main] DEBUG org.apache.http.headers  - << expires: 0
+[main] DEBUG org.apache.http.headers  - << content-type: application/json; charset=utf-8
+[main] DEBUG org.apache.http.headers  - << vary: Accept-Encoding
+[main] DEBUG org.apache.http.headers  - << content-encoding: gzip
+[main] DEBUG org.apache.http.headers  - << date: Thu, 10 Dec 2020 11:39:57 GMT
+[main] DEBUG org.apache.http.headers  - << connection: close
+[main] DEBUG org.apache.http.headers  - << transfer-encoding: chunked
+[main] DEBUG io.restassured.internal.RequestSpecificationImpl$RestAssuredHttpBuilder  - Parsing response as: application/json; charset=utf-8
+[main] DEBUG org.apache.http.wire  -  << "a[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "[0x1f][0x8b][0x8][0x0][0x0][0x0][0x0][0x0][0x0][0x3]"
+[main] DEBUG org.apache.http.wire  -  << "[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "4f[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "[0x8b][0xe6]R[0xa8]V[0x8a][0xcf]LQ[0xb2]R2MK1205[0xb0]HINMJ6035000476[0xb7]P[0xd2]QJ[0xcb],*.[0xc9]K[0xcc]M[0x5]*[0xf3]NM[0xc9]H,[0x2][\n]"
+[main] DEBUG org.apache.http.wire  -  << "[0xe6]$[0xc2][0xc5][0xbc][0x12][0x81]beJ[0xb5]\[0xb1][0x0][0xc9]-x:P[0x0][0x0][0x0]"
+[main] DEBUG org.apache.http.wire  -  << "[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "0[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "[\r][\n]"
+[main] DEBUG io.restassured.internal.RequestSpecificationImpl$RestAssuredHttpBuilder  - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+[main] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager  - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@38cedb7d
+[main] DEBUG org.apache.http.impl.conn.DefaultClientConnection  - Connection 0.0.0.0:50269<->188.166.28.84:443 shut down
+[main] INFO  com.atmecs.api_testing.utilities.Logging  - Getting response body
+
+[main] INFO  com.atmecs.api_testing.utilities.Logging  - Response body: [
+ {"_id":"5fd20508dcebc06500017378","firstname":"Kedhar","lastname":"Jadhav"}
+]
+[main] INFO  com.atmecs.api_testing.utilities.Logging  - Getting status code
+[main] INFO  com.atmecs.api_testing.utilities.Logging  - Verifying the status code !!
+[main] INFO  com.atmecs.api_testing.utilities.Logging  - Status Code:200
+[main] INFO  com.atmecs.api_testing.utilities.Logging  - Verified status code !!
+[main] INFO  com.atmecs.api_testing.utilities.Logging  - Building the request !!
+
+[main] INFO  com.atmecs.api_testing.utilities.Logging  - Providing access to retrieve the records ang getting response !!
+
+[main] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager  - Get connection for route {s}->https://sample-3a82.restdb.io:443
+[main] DEBUG org.apache.http.impl.conn.DefaultClientConnectionOperator  - Connecting to sample-3a82.restdb.io:443
+[main] DEBUG org.apache.http.client.protocol.RequestAddCookies  - CookieSpec selected: ignoreCookies
+[main] DEBUG org.apache.http.client.protocol.RequestAuthCache  - Auth cache not set in the context
+[main] DEBUG org.apache.http.client.protocol.RequestProxyAuthentication  - Proxy auth state: UNCHALLENGED
+[main] DEBUG org.apache.http.impl.client.DefaultHttpClient  - Attempt 1 to execute request
+[main] DEBUG org.apache.http.impl.conn.DefaultClientConnection  - Sending request: GET /rest/api-testing HTTP/1.1
+[main] DEBUG org.apache.http.wire  -  >> "GET /rest/api-testing HTTP/1.1[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  >> "Content-Type: application/json; charset=UTF-8[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  >> "Authorization: Bearer b35c5b2a12e7cb38d9913ecdd8734006969f2[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  >> "Accept: */*[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  >> "x-apikey: b35c5b2a12e7cb38d9913ecdd8734006969f2[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  >> "Host: sample-3a82.restdb.io[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  >> "Connection: Keep-Alive[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  >> "User-Agent: Apache-HttpClient/4.5.3 (Java/14.0.1)[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  >> "[\r][\n]"
+[main] DEBUG org.apache.http.headers  - >> GET /rest/api-testing HTTP/1.1
+[main] DEBUG org.apache.http.headers  - >> Content-Type: application/json; charset=UTF-8
+[main] DEBUG org.apache.http.headers  - >> Authorization: Bearer b35c5b2a12e7cb38d9913ecdd8734006969f2
+[main] DEBUG org.apache.http.headers  - >> Accept: */*
+[main] DEBUG org.apache.http.headers  - >> x-apikey: b35c5b2a12e7cb38d9913ecdd8734006969f2
+[main] DEBUG org.apache.http.headers  - >> Host: sample-3a82.restdb.io
+[main] DEBUG org.apache.http.headers  - >> Connection: Keep-Alive
+[main] DEBUG org.apache.http.headers  - >> User-Agent: Apache-HttpClient/4.5.3 (Java/14.0.1)
+[main] DEBUG org.apache.http.headers  - >> Accept-Encoding: gzip,deflate
+[main] DEBUG org.apache.http.wire  -  << "HTTP/1.1 200 OK[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "x-xss-protection: 1; mode=block[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "x-download-options: noopen[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "x-frame-options: SAMEORIGIN[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "x-content-type-options: nosniff[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "x-dns-prefetch-control: off[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "surrogate-control: no-store[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "cache-control: no-store, no-cache, must-revalidate, proxy-revalidate[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "pragma: no-cache[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "expires: 0[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "content-type: application/json; charset=utf-8[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "vary: Accept-Encoding[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "content-encoding: gzip[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "date: Thu, 10 Dec 2020 11:41:10 GMT[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "connection: close[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "transfer-encoding: chunked[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "[\r][\n]"
+[main] DEBUG org.apache.http.impl.conn.DefaultClientConnection  - Receiving response: HTTP/1.1 200 OK
+[main] DEBUG org.apache.http.headers  - << HTTP/1.1 200 OK
+[main] DEBUG org.apache.http.headers  - << x-xss-protection: 1; mode=block
+[main] DEBUG org.apache.http.headers  - << x-download-options: noopen
+[main] DEBUG org.apache.http.headers  - << x-frame-options: SAMEORIGIN
+[main] DEBUG org.apache.http.headers  - << x-content-type-options: nosniff
+[main] DEBUG org.apache.http.headers  - << x-dns-prefetch-control: off
+[main] DEBUG org.apache.http.headers  - << surrogate-control: no-store
+[main] DEBUG org.apache.http.headers  - << cache-control: no-store, no-cache, must-revalidate, proxy-revalidate
+[main] DEBUG org.apache.http.headers  - << pragma: no-cache
+[main] DEBUG org.apache.http.headers  - << expires: 0
+[main] DEBUG org.apache.http.headers  - << content-type: application/json; charset=utf-8
+[main] DEBUG org.apache.http.headers  - << vary: Accept-Encoding
+[main] DEBUG org.apache.http.headers  - << content-encoding: gzip
+[main] DEBUG org.apache.http.headers  - << date: Thu, 10 Dec 2020 11:41:10 GMT
+[main] DEBUG org.apache.http.headers  - << connection: close
+[main] DEBUG org.apache.http.headers  - << transfer-encoding: chunked
+[main] DEBUG io.restassured.internal.RequestSpecificationImpl$RestAssuredHttpBuilder  - Parsing response as: application/json; charset=utf-8
+[main] DEBUG org.apache.http.wire  -  << "a[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "[0x1f][0x8b][0x8][0x0][0x0][0x0][0x0][0x0][0x0][0x3]"
+[main] DEBUG org.apache.http.wire  -  << "[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "4f[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "[0x8b][0xe6]R[0xa8]V[0x8a][0xcf]LQ[0xb2]R2MK1205[0xb0]HINMJ6035000476[0xb7]P[0xd2]QJ[0xcb],*.[0xc9]K[0xcc]M[0x5]*[0xf3]NM[0xc9]H,[0x2][\n]"
+[main] DEBUG org.apache.http.wire  -  << "[0xe6]$[0xc2][0xc5][0xbc][0x12][0x81]beJ[0xb5]\[0xb1][0x0][0xc9]-x:P[0x0][0x0][0x0]"
+[main] DEBUG org.apache.http.wire  -  << "[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "0[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "[\r][\n]"
+[main] DEBUG io.restassured.internal.RequestSpecificationImpl$RestAssuredHttpBuilder  - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+[main] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager  - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@38cedb7d
+[main] DEBUG org.apache.http.impl.conn.DefaultClientConnection  - Connection 0.0.0.0:50362<->188.166.28.84:443 shut down
+[main] INFO  com.atmecs.api_testing.utilities.Logging  - Getting response body
+
+[main] INFO  com.atmecs.api_testing.utilities.Logging  - Response body: [
+ {"_id":"5fd20508dcebc06500017378","firstname":"Kedhar","lastname":"Jadhav"}
+]
+[main] INFO  com.atmecs.api_testing.utilities.Logging  - Getting status code
+[main] INFO  com.atmecs.api_testing.utilities.Logging  - Verifying the status code !!
+[main] INFO  com.atmecs.api_testing.utilities.Logging  - Status Code:200
+[main] INFO  com.atmecs.api_testing.utilities.Logging  - Verified status code !!
