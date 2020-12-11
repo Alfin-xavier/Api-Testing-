@@ -528,3 +528,89 @@
 [main] INFO  com.atmecs.api_testing.utilities.Logging  - Verifying the status code !!
 [main] INFO  com.atmecs.api_testing.utilities.Logging  - Status Code:200
 [main] INFO  com.atmecs.api_testing.utilities.Logging  - Verified status code !!
+[TestNG-tests-1] INFO  com.atmecs.api_testing.utilities.Logging  - Building the request !!
+
+[TestNG-tests-1] INFO  com.atmecs.api_testing.utilities.Logging  - Providing access to retrieve the records ang getting response !!
+
+[TestNG-tests-1] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager  - Get connection for route {s}->https://sample-3a82.restdb.io:443
+[TestNG-tests-1] DEBUG org.apache.http.impl.conn.DefaultClientConnectionOperator  - Connecting to sample-3a82.restdb.io:443
+[TestNG-tests-1] DEBUG org.apache.http.client.protocol.RequestAddCookies  - CookieSpec selected: ignoreCookies
+[TestNG-tests-1] DEBUG org.apache.http.client.protocol.RequestAuthCache  - Auth cache not set in the context
+[TestNG-tests-1] DEBUG org.apache.http.client.protocol.RequestProxyAuthentication  - Proxy auth state: UNCHALLENGED
+[TestNG-tests-1] DEBUG org.apache.http.impl.client.DefaultHttpClient  - Attempt 1 to execute request
+[TestNG-tests-1] DEBUG org.apache.http.impl.conn.DefaultClientConnection  - Sending request: GET /rest/api-testing HTTP/1.1
+[TestNG-tests-1] DEBUG org.apache.http.wire  -  >> "GET /rest/api-testing HTTP/1.1[\r][\n]"
+[TestNG-tests-1] DEBUG org.apache.http.wire  -  >> "Content-Type: application/json; charset=UTF-8[\r][\n]"
+[TestNG-tests-1] DEBUG org.apache.http.wire  -  >> "Authorization: Bearer b35c5b2a12e7cb38d9913ecdd8734006969f2[\r][\n]"
+[TestNG-tests-1] DEBUG org.apache.http.wire  -  >> "Accept: */*[\r][\n]"
+[TestNG-tests-1] DEBUG org.apache.http.wire  -  >> "x-apikey: b35c5b2a12e7cb38d9913ecdd8734006969f2[\r][\n]"
+[TestNG-tests-1] DEBUG org.apache.http.wire  -  >> "Host: sample-3a82.restdb.io[\r][\n]"
+[TestNG-tests-1] DEBUG org.apache.http.wire  -  >> "Connection: Keep-Alive[\r][\n]"
+[TestNG-tests-1] DEBUG org.apache.http.wire  -  >> "User-Agent: Apache-HttpClient/4.5.3 (Java/14.0.1)[\r][\n]"
+[TestNG-tests-1] DEBUG org.apache.http.wire  -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+[TestNG-tests-1] DEBUG org.apache.http.wire  -  >> "[\r][\n]"
+[TestNG-tests-1] DEBUG org.apache.http.headers  - >> GET /rest/api-testing HTTP/1.1
+[TestNG-tests-1] DEBUG org.apache.http.headers  - >> Content-Type: application/json; charset=UTF-8
+[TestNG-tests-1] DEBUG org.apache.http.headers  - >> Authorization: Bearer b35c5b2a12e7cb38d9913ecdd8734006969f2
+[TestNG-tests-1] DEBUG org.apache.http.headers  - >> Accept: */*
+[TestNG-tests-1] DEBUG org.apache.http.headers  - >> x-apikey: b35c5b2a12e7cb38d9913ecdd8734006969f2
+[TestNG-tests-1] DEBUG org.apache.http.headers  - >> Host: sample-3a82.restdb.io
+[TestNG-tests-1] DEBUG org.apache.http.headers  - >> Connection: Keep-Alive
+[TestNG-tests-1] DEBUG org.apache.http.headers  - >> User-Agent: Apache-HttpClient/4.5.3 (Java/14.0.1)
+[TestNG-tests-1] DEBUG org.apache.http.headers  - >> Accept-Encoding: gzip,deflate
+[TestNG-tests-1] DEBUG org.apache.http.wire  -  << "HTTP/1.1 200 OK[\r][\n]"
+[TestNG-tests-1] DEBUG org.apache.http.wire  -  << "x-xss-protection: 1; mode=block[\r][\n]"
+[TestNG-tests-1] DEBUG org.apache.http.wire  -  << "x-download-options: noopen[\r][\n]"
+[TestNG-tests-1] DEBUG org.apache.http.wire  -  << "x-frame-options: SAMEORIGIN[\r][\n]"
+[TestNG-tests-1] DEBUG org.apache.http.wire  -  << "x-content-type-options: nosniff[\r][\n]"
+[TestNG-tests-1] DEBUG org.apache.http.wire  -  << "x-dns-prefetch-control: off[\r][\n]"
+[TestNG-tests-1] DEBUG org.apache.http.wire  -  << "surrogate-control: no-store[\r][\n]"
+[TestNG-tests-1] DEBUG org.apache.http.wire  -  << "cache-control: no-store, no-cache, must-revalidate, proxy-revalidate[\r][\n]"
+[TestNG-tests-1] DEBUG org.apache.http.wire  -  << "pragma: no-cache[\r][\n]"
+[TestNG-tests-1] DEBUG org.apache.http.wire  -  << "expires: 0[\r][\n]"
+[TestNG-tests-1] DEBUG org.apache.http.wire  -  << "content-type: application/json; charset=utf-8[\r][\n]"
+[TestNG-tests-1] DEBUG org.apache.http.wire  -  << "vary: Accept-Encoding[\r][\n]"
+[TestNG-tests-1] DEBUG org.apache.http.wire  -  << "content-encoding: gzip[\r][\n]"
+[TestNG-tests-1] DEBUG org.apache.http.wire  -  << "date: Thu, 10 Dec 2020 11:57:59 GMT[\r][\n]"
+[TestNG-tests-1] DEBUG org.apache.http.wire  -  << "connection: close[\r][\n]"
+[TestNG-tests-1] DEBUG org.apache.http.wire  -  << "transfer-encoding: chunked[\r][\n]"
+[TestNG-tests-1] DEBUG org.apache.http.wire  -  << "[\r][\n]"
+[TestNG-tests-1] DEBUG org.apache.http.impl.conn.DefaultClientConnection  - Receiving response: HTTP/1.1 200 OK
+[TestNG-tests-1] DEBUG org.apache.http.headers  - << HTTP/1.1 200 OK
+[TestNG-tests-1] DEBUG org.apache.http.headers  - << x-xss-protection: 1; mode=block
+[TestNG-tests-1] DEBUG org.apache.http.headers  - << x-download-options: noopen
+[TestNG-tests-1] DEBUG org.apache.http.headers  - << x-frame-options: SAMEORIGIN
+[TestNG-tests-1] DEBUG org.apache.http.headers  - << x-content-type-options: nosniff
+[TestNG-tests-1] DEBUG org.apache.http.headers  - << x-dns-prefetch-control: off
+[TestNG-tests-1] DEBUG org.apache.http.headers  - << surrogate-control: no-store
+[TestNG-tests-1] DEBUG org.apache.http.headers  - << cache-control: no-store, no-cache, must-revalidate, proxy-revalidate
+[TestNG-tests-1] DEBUG org.apache.http.headers  - << pragma: no-cache
+[TestNG-tests-1] DEBUG org.apache.http.headers  - << expires: 0
+[TestNG-tests-1] DEBUG org.apache.http.headers  - << content-type: application/json; charset=utf-8
+[TestNG-tests-1] DEBUG org.apache.http.headers  - << vary: Accept-Encoding
+[TestNG-tests-1] DEBUG org.apache.http.headers  - << content-encoding: gzip
+[TestNG-tests-1] DEBUG org.apache.http.headers  - << date: Thu, 10 Dec 2020 11:57:59 GMT
+[TestNG-tests-1] DEBUG org.apache.http.headers  - << connection: close
+[TestNG-tests-1] DEBUG org.apache.http.headers  - << transfer-encoding: chunked
+[TestNG-tests-1] DEBUG io.restassured.internal.RequestSpecificationImpl$RestAssuredHttpBuilder  - Parsing response as: application/json; charset=utf-8
+[TestNG-tests-1] DEBUG org.apache.http.wire  -  << "a[\r][\n]"
+[TestNG-tests-1] DEBUG org.apache.http.wire  -  << "[0x1f][0x8b][0x8][0x0][0x0][0x0][0x0][0x0][0x0][0x3]"
+[TestNG-tests-1] DEBUG org.apache.http.wire  -  << "[\r][\n]"
+[TestNG-tests-1] DEBUG org.apache.http.wire  -  << "4f[\r][\n]"
+[TestNG-tests-1] DEBUG org.apache.http.wire  -  << "[0x8b][0xe6]R[0xa8]V[0x8a][0xcf]LQ[0xb2]R2MK1205[0xb0]HINMJ6035000476[0xb7]P[0xd2]QJ[0xcb],*.[0xc9]K[0xcc]M[0x5]*[0xf3]NM[0xc9]H,[0x2][\n]"
+[TestNG-tests-1] DEBUG org.apache.http.wire  -  << "[0xe6]$[0xc2][0xc5][0xbc][0x12][0x81]beJ[0xb5]\[0xb1][0x0][0xc9]-x:P[0x0][0x0][0x0]"
+[TestNG-tests-1] DEBUG org.apache.http.wire  -  << "[\r][\n]"
+[TestNG-tests-1] DEBUG org.apache.http.wire  -  << "0[\r][\n]"
+[TestNG-tests-1] DEBUG org.apache.http.wire  -  << "[\r][\n]"
+[TestNG-tests-1] DEBUG io.restassured.internal.RequestSpecificationImpl$RestAssuredHttpBuilder  - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+[TestNG-tests-1] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager  - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@b238c35
+[TestNG-tests-1] DEBUG org.apache.http.impl.conn.DefaultClientConnection  - Connection 0.0.0.0:51129<->188.166.28.84:443 shut down
+[TestNG-tests-1] INFO  com.atmecs.api_testing.utilities.Logging  - Getting response body
+
+[TestNG-tests-1] INFO  com.atmecs.api_testing.utilities.Logging  - Response body: [
+ {"_id":"5fd20508dcebc06500017378","firstname":"Kedhar","lastname":"Jadhav"}
+]
+[TestNG-tests-1] INFO  com.atmecs.api_testing.utilities.Logging  - Getting status code
+[TestNG-tests-1] INFO  com.atmecs.api_testing.utilities.Logging  - Verifying the status code !!
+[TestNG-tests-1] INFO  com.atmecs.api_testing.utilities.Logging  - Status Code:200
+[TestNG-tests-1] INFO  com.atmecs.api_testing.utilities.Logging  - Verified status code !!
